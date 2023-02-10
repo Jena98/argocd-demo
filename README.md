@@ -27,3 +27,10 @@ kubectl apply -f application-set.yaml
 ```
 kubectl apply -f argo-rollouts.yaml
 ```
+
+##### multiple sources for applications
+Required: argocd v2.6.0
+
+```
+kubectl apply -f multi-repo-application.yaml
+```
